@@ -15,7 +15,7 @@ describe('Product service', function () {
       })
 
     let weight = await productService.getProductWeight('13')
-    expect(weight).to.equal(15.5)
+    expect(weight).to.equal(15.5) 
   })
 
   it('Should handle unexpected response structure', async function () {
